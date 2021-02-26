@@ -59,6 +59,8 @@
   ],
   "scripts": {
     "audit": "improved-yarn-audit --ignore-dev-deps --min-severity moderate -e 1488",
+    "prepublish": "yarn install",
+    "prepare": "npm run build",
     "build": "scripts/build.sh",
     "bundlewatch": "bundlewatch --config .bundlewatch.config.json",
     "docs-build": "cross-env NODE_ENV=docs nuxt build -c docs/nuxt.config.js",
