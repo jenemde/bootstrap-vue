@@ -223,7 +223,11 @@
     "url": "https://opencollective.com/bootstrap-vue",
     "logo": "https://opencollective.com/bootstrap-vue/logo.txt"
   },
+  "name": "@jenemde/bootstrap-vue",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
-  }
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "url": "git://github.com/jenemde/bootstrap-vue.git"
+  },
 }
